@@ -66,7 +66,7 @@ caffe디렉토리에 있는 Makefile.config를 내 서버의 환경에 맞게 �
 $ cp Makefile.config.example Makefile.config
 ```
 
-https://github.com/BVLC/caffe/pull/1667 를 참조해서 자신의 환경에 맞게 수정하라는데..
+<https://github.com/BVLC/caffe/pull/1667> 를 참조해서 자신의 환경에 맞게 수정하라는데..
 
 내가 주석제거한 부분은 다음과 같다.
 
