@@ -18,42 +18,38 @@ $ sudo apt install caffe-cuda
 Prerequisites 관련해서 먼저 해야할게 많다..
 
 - CUDA 설치
+> 버전 7이상이여야 한다.
+> ```
+> $ nvcc --version
+> ```
+> 로 확인 결과 본인 서버는 버전 10.0으로 설치되어있다. 
 >
-버전 7이상이여야 한다.
-```
-$ nvcc --version
-```
-로 확인 결과 본인 서버는 버전 10.0으로 설치되어있다.
- 
-pass...
+> pass...
 
 - BLAS 설치
-> 
-```
-$ sudo apt-get install libatlas-base-dev
-```
+> ```
+> $ sudo apt-get install libatlas-base-dev
+> ```
 
 - General dependencies(boost, protobuf, glog, glasgs, hdf5)
-> 
-뭐하는 것들인지는 모르겠으나...
-```
-$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
-
-$ sudo apt-get install --no-install-recommends libboost-all-dev
-```
+> 뭐하는 것들인지는 모르겠으나...
+> ```
+> $ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+>
+> $ sudo apt-get install --no-install-recommends libboost-all-dev
+> ```
 
 - Opencv 설치
-> 
-버전 2.4 이상이여아한다.
-```
-$ pkg-config --modversion opencv
-```
-로 확인 결과 본인 서버는 버전 3.2.0으로 설치되어있다.
-pass...
+> 버전 2.4 이상이여아한다.
+> ```
+> $ pkg-config --modversion opencv
+> ```
+> 로 확인 결과 본인 서버는 버전 3.2.0으로 설치되어있다.
+>
+> pass...
 
 - MATLAB interface
->
-MATLAB interface를 compile 하려면 설치해야하는데 optional이므로 나는 안했다.
+> MATLAB interface를 compile 하려면 설치해야하는데 optional이므로 나는 안했다.
 
 ## 3.
 Compilation
