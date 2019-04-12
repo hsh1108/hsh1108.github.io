@@ -3,7 +3,10 @@ layout: post
 title: Caffe installation
 ---
 
-진행 flow는 다음과 같다
+caffe 공식 사이트 : <http://caffe.berkeleyvision.org/install_apt.html>
+
+설치 진행 flow는 다음과 같다
+
 ## 1.
 본인 우분투 서버 버전은 18.04.2여서 공식사이트의 Installing pre-compiled Caffe를 먼저 시도했다.
 
